@@ -1,0 +1,30 @@
+WHAT IS THIS FOLDER?
+====================
+Rewritten 2026-08-31. The previous version of this file was wrong on every
+material point — it is superseded by what follows.
+
+This is a working checkout of github.com/ShravG1/Layers.
+The repo was renamed from "LUN" to "Layers"; the old URL still redirects, which
+is why tooling kept reporting the old name. It is a mobile-first weather ->
+clothing PWA, and it is PUBLIC.
+
+Live site:  https://shravg1.github.io/Layers/   (GitHub Pages, gh-pages branch)
+
+STATE, verified 2026-08-31
+  - "main" tracks origin/main at 5315012 and is in sync. 40 commits.
+  - node_modules deleted (was 330 MB of this folder's 332 MB).
+    Restore with: npm ci
+  - Folder is now ~1.7 MB.
+
+WHAT THE OLD VERSION OF THIS FILE GOT WRONG
+  - "only an initial commit" — no. That was an orphan scaffold commit (b2651b6)
+    with NO common ancestor with the real history. Discarded 2026-08-31; the
+    real 40-commit history was always on GitHub.
+  - "the active site lives at /Users/shravg/Desktop/LUN-deploy" — that path does
+    not exist.
+  - "the weather/outfit experiment" worth keeping — it was already pushed. The
+    local branch claude/weather-clothing-pwa-kBg5q (077a011) is the ROOT of
+    origin/main's history.
+  - "~332MB" — no longer true, see above.
+
+Nothing in this folder is unpushed. It is safe to delete and re-clone at any time.
